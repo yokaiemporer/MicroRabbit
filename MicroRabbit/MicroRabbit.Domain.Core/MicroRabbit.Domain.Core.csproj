@@ -5,9 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Bus\" />
-    <Folder Include="Commands\" />
-    <Folder Include="Events\" />
+    <PackageReference Include="MediatR" Version="7.0.0" />
+    <PackageReference Include="NuGet.Packaging" Version="5.3.1" />
+    <PackageReference Include="RabbitMQ.Client" Version="5.1.2" />
   </ItemGroup>
 
 </Project>
